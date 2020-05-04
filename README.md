@@ -1,7 +1,7 @@
 ### About NoFoodWaste-Metronom Project
 The data analysis in this report has been done on one of Metro's department store data for the month january 2020. Due to the limitations of the study, the ultimate goal of this report is not to reach to significant statistical results but to give a fair and true view about the dataset we received. 
-However, I have tried to focus on exploring the daily sales in different main product categories to figure out trends and distributions and if possible to find a correlation between sales and shrinkage data. The data science libraries such as Pandas, Seaborn & etc. has helped me a lot in analysing the data and visualizing the results. 
-Since we lack sufficient data for shrinkage, a linear correlation could not be derived from the shrinkage and sales data. Moreover, shrinkage values are not derived by an automated process and huge errors can be find in its measurement. Hence, from the trend analysis it can be predicted that the sales go down on Fridays and increas on Mondays in the following weeks because it has troughs & peaks on a regular basis. Considering the fact that real data have extreme values, statistical analyses show us that all of the main product group categories are positively skewed to the right. Also, the spreads of the data in categories such as meat & fish represent that their sales values vary more than other categories such as bread which has the least variations in its sales price. 
+However, I have tried to focus on exploring the daily sales in different main product categories to figure out trends and distributions and if possible to find a correlation between sales and shrinkage data. The data science libraries such as Pandas, Seaborn, Matplotlib and statistical concepts such as linear correlation have helped me a lot in analysing the data and visualizing the results. 
+Since we lack sufficient data for shrinkage, a linear correlation could not be derived from the shrinkage and sales data. Moreover, shrinkage values are not derived by an automated process and huge errors can be find in its measurement. Hence, from the trend analysis it can be predicted that the sales go down on Fridays and increase on Mondays in the following weeks because the sales line has troughs & peaks on a regular basis. Considering the fact that real data have extreme values, statistical analyses show us that all of the main product group categories are positively skewed to the right. Also, the spreads of the data in categories such as meat & fish represent that their sales values vary more than other categories such as bread which has the least variation in its sales price. In fact, these information can be the building blocks of further analyses on sales and shrinkage in the company to predit the sales efficiently and improve decision makings to decrease foodwaste. 
 
 
 ### Set up
@@ -30,7 +30,8 @@ You can download the repository zip file or clone the repository.
 `jupyter notebook`
 * Then, open the 'NoFoodWaste-Metronom Project' file.
 
-
+#### Data 
+* Because of the confidential reasons, raw data will be sent to you seperately.
 
 ### More Info about the Libraries
 * Pandas - Provides data structures and data analysis tools
